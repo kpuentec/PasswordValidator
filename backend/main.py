@@ -1,13 +1,21 @@
 import pass_strength
 import pass_salt_hash
 import string
+import brute_force_sim
 
 def graphic():
     
     print("""
+    ************************************
+    ====================================
     +        PASSWORD VALIDATOR        +
+    +                                  +
+    +               2025               +
+    ====================================
+    ************************************
     
-    This program helps you validate, salt, and hash passwords.
+    This program simulates validating, salting, and hashing passwords.
+    You can also simulate brute-force attacks to test password security.
     """)
     
 
@@ -17,7 +25,8 @@ def menu():
     Choose an option:
     1. Check password strength
     2. Salting and Hashing password
-    3. Exit
+    3. Run brute force simulation
+    4. Exit
     """)
 
     choice = input("Enter choice (1-3): ")
@@ -47,7 +56,17 @@ def menu():
         print(f"Salt: {password_data['salt']}")
         print(f"Hashed Password: {password_data['hashed_pass']}")
         menu()
-    elif choice == '3': 
+    elif choice == '3':
+        print("""
+        Brute-force sim tries all possible combos of chars to crack
+        a password. The time it takes depends on password length
+        and complexity. CAUTION: Stronger passwords take a long
+        time to crack.
+        """)
+        password = input("Enter password to crack: ")
+        charset = string.ascii_lowercase + string.digits
+        print(brute_force_sim.brute_force(password, charset))
+    elif choice == '4':
         print("Exiting program")
         return
     else:

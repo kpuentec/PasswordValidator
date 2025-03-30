@@ -1,4 +1,3 @@
-import secrets
 import bcrypt
 
 def hash(password):
