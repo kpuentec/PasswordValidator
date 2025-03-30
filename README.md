@@ -15,11 +15,11 @@ Features:
 
 Install:
 
-1. Clone repository: git clone https://github.com/<yourusername>/PasswordValidator.git
+1. Clone repository: git clone 
 
 2. Navigate to the project directory: cd PasswordValidator
 
-3. Install bcrypt: pip install bcrypt
+3. Install requirements: pip install -r requirements.txt
 
 Run:
 
