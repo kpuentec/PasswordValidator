@@ -15,7 +15,7 @@ Features:
 
 Install:
 
-1. Clone repository: git clone 
+1. Clone repository: git clone https://github.com/kpuentec/PasswordValidator.git
 
 2. Navigate to the project directory: cd PasswordValidator
 
