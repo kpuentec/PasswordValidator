@@ -34,12 +34,16 @@ Run:
 Structure:
 
 *backend/ : Contains Python functions for the program
+
     *main.py : Main script to tie everything together and run the password validation checks.
     *pass_salt_hash.py : Functions for password salting and hashing.
     *pass_strength.py : Password strength evaluation logic.
     *brute_force_sim.py : Script to simulate a brute-force attack on a password.
+
 *.gitignore : Git ignore file to exclude unnecessary files
+
 *LICENSE : Project license info
+
 *README.md: Guess
 
 
