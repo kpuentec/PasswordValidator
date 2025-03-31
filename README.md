@@ -15,11 +15,13 @@ Features:
 
 Install:
 
-1. Clone repository: git clone https://github.com/kpuentec/PasswordValidator.git
+1. Clone repository:
 
-2. Navigate to the project directory: cd PasswordValidator
+         git clone https://github.com/kpuentec/PasswordValidator.git
 
-3. Install requirements:
+4. Navigate to the project directory: cd PasswordValidator
+
+5. Install requirements:
 
          pip install -r requirements.txt
 
