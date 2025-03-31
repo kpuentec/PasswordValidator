@@ -19,9 +19,13 @@ Install:
 
 2. Navigate to the project directory: cd PasswordValidator
 
-3. Install requirements: pip install -r requirements.txt
+3. Install requirements:
+
+         pip install -r requirements.txt
 
 Run:
+
+* Navigate to the backend/ folder
 
 * python main.py for menu options
 
@@ -44,7 +48,7 @@ Structure:
 
 *LICENSE : Project license info
 
-*README.md: Guess
+*README.md: This file
 
 
 
