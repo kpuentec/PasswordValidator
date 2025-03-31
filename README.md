@@ -25,13 +25,13 @@ Install:
 
 Run:
 
-* Navigate to the backend/ folder
-
 * python main.py for menu options
+
+* Navigate to the backend/ folder
 
 * python pass_strength.py <password> to check your passwords strength
 
-* python pass_salt_hash.py <password> to see a password salted and hashed
+* python pass_salt_hash.py <password> to have your password salted and hashed and stored within a SQL database.
 
 * python brute_force_sim.py <password> to see estiamte of brute force attack being successful on your passwords.
 
