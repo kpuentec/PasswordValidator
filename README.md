@@ -50,15 +50,15 @@ Structure:
     *pass_strength.py : Password strength evaluation logic.
     *brute_force_sim.py : Script to simulate a brute-force attack on a password.
 
-Output:
-
-storage.db : SQLite database that securely stores user password data. Contains unique identifier for each password entry, salted and hashed version of the user's password, and the date and time when the password was stored in the database.
-
 *.gitignore : Git ignore file to exclude unnecessary files
 
 *LICENSE : Project license info
 
 *README.md: This file
+
+Output:
+
+storage.db : SQLite database that securely stores user password data. Contains unique identifier for each password entry, salted and hashed version of the user's password, and the date and time when the password was stored in the database.
 
 
 
