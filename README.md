@@ -23,9 +23,9 @@ Install:
 
          git clone https://github.com/kpuentec/PasswordValidator.git
 
-4. Navigate to the project directory: cd PasswordValidator
+2. Navigate to the project directory: cd PasswordValidator
 
-5. Install requirements:
+3. Install requirements:
 
          pip install -r requirements.txt
 
@@ -60,6 +60,6 @@ Output:
 
 storage.db : SQLite database that securely stores user password data. Contains unique identifier for each password entry, salted and hashed version of the user's password, and the date and time when the password was stored in the database.
 
-
+**Note:** Changes to the code and other features are susceptible in the future
 
 2025
